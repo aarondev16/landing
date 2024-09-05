@@ -65,3 +65,36 @@
 .account-icon:hover {
   color: #3b82f6;
 }
+
+.swiper-button-prev {
+  color: aliceblue;
+}
+.swiper-button-next {
+  color: aliceblue;
+}
+
+img {
+  border-radius: 10px;
+}
+
+
+/* src/components/Footer.css */
+.footer {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.footer-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.mt {
+  margin-top: 16px;
+}
